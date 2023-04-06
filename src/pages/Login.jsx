@@ -1,4 +1,5 @@
 import React from 'react';
+import logo_yard_sale from '@logos/logo_yard_sale.svg';
 import '../styles/Login.scss';
 
 const Login = () => {
@@ -6,7 +7,7 @@ const Login = () => {
 		<>
 			<div className='Login'>
 				<div className='form-container'>
-					<img src='./logos/logo_yard_sale.svg' alt='logo' className='logo' />
+					<img src={logo_yard_sale} alt='logo' className='logo' />
 					<h1 className='title'>Create a new password</h1>
 					<p className='subtitle'>Enter a new passwrd for yue account</p>
 
